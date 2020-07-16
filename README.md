@@ -1,4 +1,4 @@
-# Chrome Application - Momento
+# Chrome Application - Momentum (clone)
 ### Personal Dashboard New Tab Chrome Extension
 
 1. Clock
