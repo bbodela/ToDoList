@@ -4,7 +4,19 @@ const toDoList = document.querySelector(".js-toDoList");
 
 const LS_TODOS = "toDos";
 
-const toDos = [];
+let toDos = [];
+
+function deleteToDo(e){
+  const btn = e.target;
+  const li = btn.parentNode;
+  toDoList.removeChild(li); //요까지만 하면 localStorage에서 삭제된것이 아니라서 새로고침하면 다시 뜬다
+  const cleanToDos = toDos.filter(toDo => 
+    // console.log(toDo.id, li.id)
+    toDo.id !== parseInt(li.id)
+  )
+  toDos = cleanToDos;
+  saveToDos();
+}
 
 function saveToDos(){
   localStorage.setItem(LS_TODOS, JSON.stringify(toDos));
@@ -17,6 +29,7 @@ function renderToDo(text){
   const span = document.createElement("span");
   const newId = toDos.length + 1;
 
+  delBtn.addEventListener("click", deleteToDo);
   delBtn.innerText = "✖️";
   span.innerText = text;
   li.appendChild(span);
