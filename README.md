@@ -1,7 +1,6 @@
 # Chrome Application - Momentum (clone)
 ### Personal Dashboard New Tab Chrome Extension
 
-----
 ## Features
 - [x] To Do List
 - [x] Weather
