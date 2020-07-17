@@ -5,9 +5,9 @@
 ## Features
 - [x] To Do List
 - [x] Weather
-- [] Daily Quote
-- [] Animation
-- [] Offline Support
+- [ ] Daily Quote
+- [ ] Animation
+- [ ] Offline Support
 
 ----
 ## Try it Out
