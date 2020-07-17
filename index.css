@@ -10,6 +10,7 @@ h1 {
   color: #34495e;
   text-align: center;
   font-size: 5em;
+  text-shadow: rgb(255, 255, 255) 1px 0 5px;
 }
 
 .clicked {
@@ -31,6 +32,10 @@ h1 {
 }
 
 .js-toDoForm {
+  text-align: center;
+}
+
+.js-toDoList {
   text-align: center;
 }
 
