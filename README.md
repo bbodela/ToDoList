@@ -1,6 +1,21 @@
 # Chrome Application - Momentum (clone)
 ### Personal Dashboard New Tab Chrome Extension
 
+----
+## Features
+- [x] To Do List
+- [x] Weather
+- [] Daily Quote
+- [] Animation
+- [] Offline Support
+
+----
+## Try it Out
+
+https://bbodela.github.io/to-do-list.github.io/
+
+----
+### Implementation Completed
 1. Clock
 2. Render name entered by user
 3. To-do-List
@@ -9,3 +24,5 @@
   - Click the Delete button of 'To-Do' to delete the 'To-Do'
 4. Background Random Images
 5. Access to Latitude and Longitude
+6. Weather API
+

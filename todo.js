@@ -32,6 +32,8 @@ function renderToDo(text){
   delBtn.addEventListener("click", deleteToDo);
   delBtn.innerText = "✖️";
   span.innerText = text;
+  delBtn.classList.add("delBtn")
+  li.classList.add("todo")
   li.appendChild(span);
   li.appendChild(delBtn);
   li.id = newId;
