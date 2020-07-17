@@ -7,3 +7,4 @@
   - Just render To-Do-lists
   - Save To-Do-lists to window.localStorage
   - Click the Delete button of 'To-Do' to delete the 'To-Do'
+4. Background Random Images
