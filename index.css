@@ -43,7 +43,7 @@ h1 {
 
 .js-toDoList {
   height: 235px;
-  overflow-y: scroll;  
+  overflow-y: auto;
   color: white;
   font-weight: bold;
   text-shadow: rgb(75, 75, 75);

@@ -24,4 +24,5 @@ https://bbodela.github.io/to-do-list.github.io/
 4. Background Random Images
 5. Access to Latitude and Longitude
 6. Weather API
+7. Modularize the key (using Webpack)
 
